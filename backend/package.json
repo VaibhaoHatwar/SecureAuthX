@@ -2,11 +2,24 @@
   "name": "secureauthx-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
-  "keywords": ["node", "express", "mern", "auth", "backend"],
+  "keywords": [
+    "node",
+    "express",
+    "mern",
+    "auth",
+    "backend"
+  ],
   "author": "Vaibhao Hatwar",
   "license": "MIT",
-  "description": "This is the backend of SecureAuthX, a MERN-based authentication system. Built with Node.js, Express.js, MongoDB (Mongoose), Nodemailer, and Cloudinary. It handles user registration, login, profile management, password reset, and email verification securely."
+  "description": "This is the backend of SecureAuthX, a MERN-based authentication system. Built with Node.js, Express.js, MongoDB (Mongoose), Nodemailer, and Cloudinary. It handles user registration, login, profile management, password reset, and email verification securely.",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2"
+  }
 }
