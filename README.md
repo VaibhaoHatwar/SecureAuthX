@@ -100,8 +100,8 @@ npm run dev
 
 ---
 
-## 📸 Screenshots (Optional)
-Add your app screenshots here after building UI
+## 📸 Screenshots
+App screenshots will be here after building UI
 
 ---
 
