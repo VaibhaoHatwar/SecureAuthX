@@ -81,28 +81,22 @@ npm run dev
 ```
 ---
 
-## 🔑 API Endpoints
-### Auth Routes
-POST /api/auth/register → Register User
-
-POST /api/auth/login → Login User
-
-POST /api/auth/logout → Logout User
-
-GET /api/auth/verify-email/:token → Email Verification
-
-POST /api/auth/forgot-password → Forgot Password
-
-POST /api/auth/reset-password/:token → Reset Password
-
 ---
 
-## User Routes
-GET /api/users/profile → Get Profile
+## 🔑 API Endpoints
 
-PUT /api/users/profile → Update Profile
+### Auth Routes
+- `POST /api/auth/register` → Register User
+- `POST /api/auth/login` → Login User
+- `POST /api/auth/logout` → Logout User
+- `GET /api/auth/verify-email/:token` → Email Verification
+- `POST /api/auth/forgot-password` → Forgot Password
+- `POST /api/auth/reset-password/:token` → Reset Password
 
-PUT /api/users/change-password → Change Password
+### User Routes
+- `GET /api/users/profile` → Get Profile
+- `PUT /api/users/profile` → Update Profile
+- `PUT /api/users/change-password` → Change Password
 
 ---
 
@@ -125,6 +119,6 @@ This project is licensed under the MIT License.
 ## ✨ Author
 👤 Vaibhao Hatwar
 
-GitHub: @your-username
+GitHub: @VaibhaoHatwar
 
 Email: vaibhaohatwar.works@gmail.com
